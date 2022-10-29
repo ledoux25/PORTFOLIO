@@ -1,0 +1,343 @@
+$primary : #222627;
+$secondary : #DB323D;
+$tertiary : #A62639;
+@import url('http://fonts.cdnfonts.com/css/averox');
+@import url('http://fonts.cdnfonts.com/css/centurion');
+
+body{
+    margin: 0;
+    width: 100%;
+    background-color: $primary;
+    position: relative;
+}
+nav{
+    position: relative;
+    height: 70px;
+   border-bottom: #A62639 solid 1px;
+    .navbar{
+        width: 100%;
+        position: relative;
+        height: 70px;
+        .logo{
+            font-family: 'CENTURION', sans-serif;
+            font-size: xx-large;
+            position: relative;
+            top: 40%;
+            left: 15%;
+            color: white;
+            display: inline;
+        }
+        .nav-items{
+            position: relative;
+            left: 35%;
+            top: 30%;
+            display: inline;
+
+            ul{
+                list-style-type: none;
+                display: inline;
+                li{
+
+                    display: inline;
+                    margin-right: 5px;
+                }
+                a{
+                    display: inline;
+                    list-style-type: none;
+                    color: white;
+                    font-family: 'averox', sans-serif;
+                    text-decoration: none;
+                }
+
+            }
+        }
+    }
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    .section1{
+        height: 90vh;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        .sec1-box1{
+            width: 52%;
+            height: 250%;
+            position: relative;
+            background-color: #A62639;
+            transform: rotate(-30deg);
+            top: -30%;
+            box-shadow: 6x 0px 2px #22262773;
+        }
+        .sec1-box2{
+            width: 53%;
+            height: 250%;
+            position: absolute;
+            background-color: #DB323D;
+            transform: rotate(-30deg);
+            top: -30%;
+            z-index: -5;
+        }
+        .sec1-box3{
+            width: 54%;
+            height: 250%;
+            position: absolute;
+            background-color: #b14f5d;
+            transform: rotate(-30deg);
+            top: -30%;
+            z-index: -10;
+        }
+        .sec1-text{
+            width: 50vw;
+            height: 80vh;
+            top: -200%;
+            position: relative;
+            text-align: center;
+            left: 50%;
+            color: white;
+            font-size: xx-large;
+            font-family: 'averox',sans-serif;
+            .ldx{
+                font-family: 'centurion', sans-serif;
+                color: #b14f5d;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .section2{
+        width: 100vw;
+        height: 8vw;
+        text-align: center;
+        background-color: $tertiary;
+        color: white;
+        overflow: hidden;
+        font-family: 'averox',sans-serif;
+        overflow: hidden;
+        position: relative;
+        font-size: 30px;
+        font-weight: 900;
+        .block{
+            display: inline-block;
+            width: 30%;
+            height: 100%;
+            position: relative;
+            top: 10%;
+            .img3{
+                position: relative;
+                width: 64px;
+                display: inline-block;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 44px;
+                background-image: url(img/icons8_working_at_the_imac_64.png);
+            }
+            .img2{
+                position: relative;
+                width: 64px;
+                display: inline-block;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 44px;
+                background-image: url(img/icons8_critical_thinking.ico);
+            }
+            .img1{
+                position: relative;
+                width: 64px;
+                display: inline-block;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 44px;
+                background-image: url(img/icons8_idea.ico);
+            }
+        }
+    }
+    .section3{
+        height: 100vh;
+        position: relative;
+        .box1{
+            width: 100%;
+            position: relative;
+            height: 30%;
+            .text1{
+                width: 25%;
+                color: white;
+                font-size: larger;
+                position: relative;
+                left: 18%;
+                top: 30%;
+                display: inline-block;
+                line-height: 30px;
+            }
+            .img{
+                display: inline-block;
+                width: 100%;
+                height: 180%;
+                position: relative;
+                background-image: url(img/28631086_coding_isometric.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                left: 60%;
+                top: -80%;
+            }
+        }
+        .box2{
+            width: 100%;
+            position: relative;
+            height: 30%;
+            .text2{
+                width: 25%;
+                color: white;
+                font-size: large;
+                position: relative;
+                left: 60%;
+                top: 120%;
+                display: inline-block;
+                line-height: 30px;
+            }
+            .img{
+                display: inline-block;
+                width: 100%;
+                height: 180%;
+                position: relative;
+                background-image: url(img/carte-afrique-planete-terre-vue-depuis-espace-icone-du-globe-africain_67515-21.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                // top: 25%;
+                left: 20%;
+            }
+        }
+    }
+    .section4{
+
+        height: 80vh;
+        position: relative;
+        h1{
+            text-align: center;
+        }
+        .box{
+            position: relative;
+            height: 75%;
+            width: 20%;
+            background-color: white;
+            display: inline-block;
+            left: 10%;
+            margin-right: 10%;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow:   0 0 2em rgba(255, 255, 255, 0.377) ;
+        }
+        .cover{
+            position: relative;
+            height: 102%;
+            width: 100%;
+            background-color: $secondary;
+            display: inline-block;
+            border-radius: 20px;
+            overflow: hidden;
+            top: -10.5%;
+            .span-C{
+                position: relative;
+                font-size: 35px;
+                font-family: 'averox',sans-serif;
+                 top: 3%;
+                // left: -35%;
+                color: #ffffff;
+                text-decoration: underline;
+                text-align: center;
+                font-weight: 800;
+            }
+             .contain{
+                 position: relative;
+                 width: 90%;
+                 top: 10%;
+                 color: #ffffff;
+                 font-size: large;
+                 margin: auto;
+             }
+
+        }
+        .cover1{
+            right: 100%;
+        }
+        .cover2{
+            top: 100%;
+        }
+        .cover3{
+            left: 100%;
+        }
+        .box:hover{
+            box-shadow:   0 0 3em rgba(255, 255, 255, 0.918) ;
+        }
+        .box:hover .cover1{
+            right: 0%;
+            transition: 1s;
+        }
+        .box:hover .cover2{
+            top: -10.5%;
+            transition: 1s;
+        }
+        .box:hover .cover3{
+            left: 0%;
+            transition: 1s;
+        }
+        .box1{
+            background-image: url(img/undraw_Basketball_re_fsbx.png);
+            background-size: contain;
+            background-position: center;
+            .span{
+                position: relative;
+                font-size: 35px;
+                font-family: 'averox',sans-serif;
+                 top: 3%;
+                transform: rotate(-10deg);
+                // left: -35%;
+                color: #A62639;
+                text-align: center;
+                font-weight: 800;
+            }
+        }
+        .box3{
+            background-image: url(img/undraw_Coding_re_iv62.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            .span{
+                position: relative;
+                font-size: 35px;
+                font-family: 'averox',sans-serif;
+                 top: 5%;
+                transform: rotate(-10deg);
+                // left: -35%;
+                color: #A62639;
+                text-align: center;
+                font-weight: 800;
+            }
+        }
+        .box2{
+            background-image: url(img/undraw_Gaming_re_cma2.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            .span{
+                position: relative;
+                font-size: 35px;
+                font-family: 'averox',sans-serif;
+                top: 80%;
+                transform: rotate(-20deg);
+                color: #A62639;
+                text-align: center;
+                font-weight: 800;
+            }
+        }
+    }
+
+}
